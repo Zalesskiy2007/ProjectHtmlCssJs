@@ -7,19 +7,43 @@
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     </head>
     <body>
+        <div class = "popup">
+            <div class = "p-body">
+                <div class = "p-desc">
+                    <div class = "p-left">
+                        <div class = "p-img-block"><img class = "p-img" src = "other.jpg"></div>
+                        <div class = "p-but-block">
+                            <span class = "btn-span">Buy</span>
+                            <span class = "btn-span">Add to cart</span>
+                            <span class = "btn-span">Contact</span>
+                        </div>
+                    </div>
+                    <div class = "p-right">
+                        <div class = "exit">&times;</div>
+                        <div class = "title-item">New Iphone 12 256GB</div>
+                        <div class = "main-body-p">
+                        <div class = "description block-p">Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                        <div class = "p-price block-p">Price: 1990RUB</div>
+                        <div class = "seller block-p">By: Michael Zalesskiy</div>
+                        <div class = "sklad block-p"><span class = "sklad-span">Available</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
         <div class = "header">
-            <div class = "logo">WebShop</div>
+            <div class = "logo">WebShopMZ</div>
                <div class = "links">
-                    <a href = "" class = "item">Home</a>
-                    <a href = "" class = "item">About</a>
-                    <a href = "" class = "item">Chest</a>
+                    <a href = "" class = "item"><img src = "home.png" class = "nav-ico"></a>
+                    <a href = "" class = "item"><img src = "info.png" class = "nav-ico"></a>
+                   <div class = "cart-div"><a href = "" class = "item"><img src = "cart.png" class = "nav-ico" align = "center"></a><div class = "cart-div-span"><span class = "cart-items">0</span></div></div>
                     <span class = "searcher">
                         <input type = "text" class = "search" placeholder = "Search...">
-                        <a href = "" class = "click">Submit</a>
+                        <a href = "" class = "click2"><img src = "search.png" class = "nav-ico"></a>
                     </span>
                </div>
         </div>
-        
         <div class = "main">
             <div class = "box-title">
                 <h3 class = "title title-1">Качественные товары по низкой цене</h3>
@@ -29,70 +53,84 @@
         </div>
         
         <div class = "body">
-            <h1 align = "center">Category</h1><hr>
             <div class = "category">
-                <div class = "row">
-                    <div class = "card">
-                        <img class = "ico" src = "laptops.jpeg">
-                        <p>Laptops</p>
-                    </div>
-                    <div class = "card">
-                        <img class = "ico" src = "tel.jpg">
-                        <p>Phones</p>
-                    </div>
-                    <div class = "card">
-                        <img class = "ico" src = "pk.jpg">
-                        <p>PC</p>
-                    </div>
-                    <div class = "card">
-                        <img class = "ico" src = "cons.jpeg">
-                        <p>Consoles</p>
-                    </div>
-                    <div class = "card">
-                        <img class = "ico" src = "acces.jpg">
-                        <p>Devices</p>
+                <div class = "cat-name" align = "center"><h1>Category</h1></div>
+                <div class = "cat-body">
+                    <div class = "cat-bar">
+                        <span class = "cat-link active gr1">Popular</span>
+                        <span class = "cat-link">Sale</span>
+                        <span class = "cat-link">Devices</span>
+                        <span class = "cat-link">Game</span>
+                        <span class = "cat-link">Phones</span>
+                        <span class = "cat-link">Laptops</span>
+                        <span class = "cat-link gr2">Other</span>
                     </div>
                 </div>
-                
-                <div class = "row">
-                    <div class = "card">
-                        <img class = "ico" src = "micro.jpg">
-                        <p>Microphones</p>
-                    </div>
-                    <div class = "card">
-                        <img class = "ico" src = "kitchen.jpg">
-                        <p>Kitchen</p>
-                    </div>
-                    <div class = "card">
-                        <img class = "ico" src = "apple.jpg">
-                        <p>Apple</p>
-                    </div>
-                    <div class = "card">
-                        <img class = "ico" src = "sumsung.png">
-                        <p>Samsung</p>
-                    </div>
-                    <div class = "card">
-                        <img class = "ico" src = "other.jpg">
-                        <p>Other</p>
-                    </div>
-                </div>
+                <hr>
             </div>
-            
-            <div class = "sale">
-                <div class = "sale-title"><h1>Sale</h1> <hr></div>
-                <div class = "sale-body">
-                    <div class = "card-item">
-                        <img class = "img-item" src = "laptops.jpeg">
-                        <div class = "item-desc">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        </div>
-                        <div class = "add"><a class = "add-link" href = "">Add to chest</a></div>
+            <div class = "block-cat">
+                <div class = "cat-title" align = "center"><h1 class = "title-cat">Popular</h1></div>
+                <div class = "block-cat-body">
+                    <div class = "table-cat">
+                        <table class = "table" align = "center">
+                            <tr>
+                                <td>
+                                   <div class = "card">
+                                    <img class = "ico" src = "other.jpg">
+                                    <div class = "fields">
+                                        <span class = 'field about-field'>New IPhone</span>
+                                        <span class = 'field price-field'>Price: 1990RUB</span>
+                                    </div>
+                                       <div class = "clicks">
+                                        <img class = "click cart" src = "cart.png">
+                                        <img class = "click plus" src = "plus.png">
+                                        <img class = "click" src = "more2.png">
+                                       </div>
+                                   </div> 
+                                </td>
+                                
+                                <td>
+                                   <div class = "card">
+                                    <img class = "ico" src = "other.jpg">
+                                    <div class = "fields">
+                                        <span class = 'field about-field'>New IPhone</span>
+                                        <span class = 'field price-field'>Price: 1990RUB</span>
+                                    </div>
+                                       <div class = "clicks">
+                                        <img class = "click cart" src = "cart.png">
+                                        <img class = "click plus" src = "plus.png">
+                                        <img class = "click" src = "more2.png">
+                                       </div>
+                                   </div> 
+                                </td>
+                                <td>
+                                   <div class = "card">
+                                    <img class = "ico" src = "other.jpg">
+                                    <div class = "fields">
+                                        <span class = 'field about-field'>New IPhone</span>
+                                        <span class = 'field price-field'>Price: 1990RUB</span>
+                                    </div>
+                                       <div class = "clicks">
+                                        <img class = "click cart" src = "cart.png">
+                                        <img class = "click plus" src = "plus.png">
+                                        <img class = "click" src = "more2.png">
+                                       </div>
+                                   </div> 
+                                </td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
-                <div class = "more-obj"><a href = "" class = "add-link">More</a></div>
             </div>
         </div>
         
+        <div class = "footer">
+            <a href = ""><img src = "inst.png" class = "social"></a>
+            <a href = ""><img src = "vk.png" class = "social"></a>
+            <a href = ""><img src = "wh.png" class = "social"></a>
+        </div>
         <script src = "script.js"></script>
+        <script src = "script2.js"></script>
+        <script src = "javas.js"></script>
     </body>
 </html>
